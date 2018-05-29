@@ -1,0 +1,36 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Hello BIAT</h1>
+    <p class="lead">Jumbo helper text</p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header bg-primary">
+  <h2>Liste des participants</h2>
+  </div>
+  <div class="card-body">
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>numéro</th>
+      <th>nom</th>
+      <th><age/th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor ='let p of participants '>
+      <td scope="row"> {{p.numero}}</td>
+      <td> {{p.nom}} </td>
+      <td>{{p.age}}</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
